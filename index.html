@@ -1,0 +1,916 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" alt="Piano School Logo" width="60px" height="60px" />
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Головна</a></li>
+              <li class="scroll-to-section"><a href="#services">Послуги</a></li>
+              <li class="scroll-to-section"><a href="#about">Про нас</a></li>
+              <li class="scroll-to-section"><a href="#pricing">Ціни</a></li>
+              <li class="scroll-to-section"><a href="#teachers">Викладачі</a></li>
+              <li class="scroll-to-section"><a href="#clients">Відгуки</a></li>
+              <li class="scroll-to-section"><a href="#contacts">Контакти</a></li>
+              <li>
+                <div class="gradient-button">
+                  <a id="modal_trigger" href="#modal-login"><i class="fa fa-sign-in-alt"></i> Вхід</a>
+                </div>
+              </li>
+            </ul>
+            <a class="menu-trigger">
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="modal-login" class="popupContainer" style="display: none">
+    <div class="popupHeader">
+      <span class="header_title">Вхід</span>
+      <span class="modal_close"><i class="fa fa-times fa-lg"></i></span>
+    </div>
+
+    <section class="popupBody">
+      <!-- Social Login -->
+      <div class="social_login ">
+        <div class="">
+          <a href="#" class="social_box fb ">
+            <span class="icon"><i class="fa-brands fa-facebook-f fa-xl" style="color: #004bcc;"></i></span>
+            <span class="icon_title">Продовжити через Facebook</span>
+          </a>
+
+          <a href="#" class="social_box google">
+            <span class="icon"><i class="fab fa-google fa-lg fa-xl" style="color: #ff0000;"></i></span>
+            <span class="icon_title">Продовжити через Google</span>
+          </a>
+        </div>
+
+        <div class="centeredText">
+          <span>Або через електронну пошту</span>
+        </div>
+
+        <div class="action_btns">
+          <div class="one_half">
+            <a href="#" id="login_form" class="btn">Вхід</a>
+          </div>
+          <div class="one_half last">
+            <a href="#" id="register_form" class="btn">Реєстрація</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Username & Password Login form -->
+      <div class="user_login">
+        <form>
+          <label>Email / Логін</label>
+          <input type="text" />
+          <br />
+
+          <label>Пароль</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="remember" type="checkbox" />
+            <label for="remember">Запам'ятати мене</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half">
+              <a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Назад</a>
+            </div>
+            <div class="one_half last">
+              <a href="#" class="btn btn_red">Увійти</a>
+            </div>
+          </div>
+        </form>
+
+        <a href="#" class="forgot_password">Забули пароль?</a>
+      </div>
+
+      <!-- Register Form -->
+      <div class="user_register">
+        <form>
+          <label>Ім'я, Прізвище</label>
+          <input type="text" />
+          <br />
+
+          <label>Електронна пошта</label>
+          <input type="email" />
+          <br />
+
+          <label>Пароль</label>
+          <input type="password" />
+          <br />
+
+          <div class="checkbox">
+            <input id="send_updates" type="checkbox" />
+            <label for="send_updates">Отримувати оновлення на e-mail</label>
+          </div>
+
+          <div class="action_btns">
+            <div class="one_half">
+              <a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Назад</a>
+            </div>
+            <div class="one_half last">
+              <a href="#" class="btn btn_red">Зареєструватися</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Уроки гри на фортепіано в Intermezzo</h2>
+                    <p>
+                      <b>Intermezzo Music Academy</b> - це школа музики, яка
+                      спеціалізується на наданні уроків гри на фортепіано.
+                      Наші викладачі пропонують індивідуальні та групові
+                      заняття для всіх рівнів підготовки. Ми допомагаємо
+                      нашим учням розвивати технічні навички, творчість та
+                      музичний смак. Долучайтесь до нас, щоб розкрити свій
+                      музичний потенціал разом із нами!
+                    </p>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="white-button first-button scroll-to-section">
+                      <a href="#pricing">Записатись</a>
+                    </div>
+                    <div class="white-button scroll-to-section">
+                      <a href="#about">Дізнатись більше</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-end">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/piano.png" alt="Piano" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Services Area Start ***** -->
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4>Що ми пропонуємо</h4>
+            <img src="assets/images/heading-line-dec.png" alt="" />
+            <p>
+              Давайте розкриємо ваш потенціал в музиці разом з Intermezzo
+              Music Academy - найкращою школою музики для гри на фортепіано!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>Професійні викладачі</h4>
+            <p>
+              Наші досвідчені викладачі допоможуть вам розвинути ваші
+              музичні здібності та зроблять навчання цікавим та ефективним.
+            </p>
+            <div class="text-button">
+              <a href="#">Дізнатись більше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>Індивідуальний підхід</h4>
+            <p>
+              Для кожного учня ми розробляємо індивідуальну програму
+              навчання, враховуючи його потреби та бажання.
+            </p>
+            <div class="text-button">
+              <a href="#">Дізнатись більше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>Розширена програма</h4>
+            <p>
+              Програма навчання включає в себе не тільки гру на фортепіано,
+              а й теорію музики, сольфеджіо, музичну літературу та інше.
+            </p>
+            <div class="text-button">
+              <a href="#">Дізнатись більше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item fourth-service">
+            <div class="icon"></div>
+            <h4>Можливість виступів</h4>
+            <p>
+              Наші учні мають можливість виступати на концертах та
+              конкурсах, що допомагає їм розвиватись та набувати досвіду.
+            </p>
+            <div class="text-button">
+              <a href="#">Дізнатись більше <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** About Area Start ***** -->\
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="left-content col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>Про нас</h4>
+            <img src="assets/images/heading-line-dec.png" alt="" />
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>
+                Ласкаво просимо до <b>Intermezzo Music Academy</b> - музичної
+                школи фортепіано, яка пропонує найвищу якість навчання та
+                розвитку музичних навичок. Наша школа була заснована
+                Вихрист Мар'яною та Чубом Денисом, які є випускниками
+                Київської національної музичної академії імені П.І.
+                Чайковського, та мають більше 6-річного досвіду викладання
+                гри на фортепіано. Вони об'єднали свої таланти та досвід,
+                щоб створити місце, де кожен учень може розвинути свій
+                потенціал у навчанні фортепіано.
+              </p>
+
+              <p>
+                Ми дуже горді нашими досягненнями та репутацією у світі
+                музики. Наші випускники успішно продовжують свою кар'єру у
+                сфері музики, на різних концертах та фестивалях. Ми
+                пишаємося тим, що наші учні розвиваються в таких
+                талановитих музикантів.
+              </p>
+
+              <p>
+                Якщо ви шукаєте музичну школу, де ви зможете розвинути
+                свій потенціал у навчанні фортепіано, то Intermezzo - це
+                саме те місце, де ви зможете знайти свою музичну стежку.
+                Ми запрошуємо вас долучитися до нашої музичної родини та
+                досліджувати світ музики разом з нами.
+              </p>
+
+              <div class="gradient-button">
+                <a href="#">Записатись на урок</a>
+                <p>*Перше заняття безкоштовне!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-end ">
+          <div class="right-image">
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="6000">
+                  <img src="assets/images/founder1.jpg" class="d-block w-100" alt="First founder" />
+                  <div class="carousel-caption d-none d-md-block ">
+                    <h5>Мар'яна Вихрист</h5>
+                    <p>Засновниця, директриса школи</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="6000">
+                  <img src="assets/images/founder222.jpeg" class="d-block w-100" alt="Second Founder" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Денис Чуб</h5>
+                    <p>Засновник, директор школи</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Pricing Area Start ***** -->
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Ціни</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Обери для себе зручний абонемент та скоріше приходь і отримай нові враження!</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">Від 200₴</span>
+            <h4>Групові заняття</h4>
+            <ul>
+              <li>
+                <h6>Абонемент на 8 занять</h6>
+                <p>2 рази на тиждень</p>
+                <h8>від 200 грн/60 хв</h8>
+              </li>
+              <li>
+                <h6>Абонемент на 4 заняття</h6>
+                <p>1 раз на тиждень</p>
+                <h8>від 225 грн/60 хв</h8>
+              </li>
+              <li>
+                <h6>Разовий урок</h6>
+                <p>вільний графік</p>
+                <h8>від 250 грн/60 хв</h8>
+              </li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Записатись</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-pro">
+            <span class="price">Від 400₴</span>
+            <h4>Індивідуальні заняття</h4>
+            <ul>
+              <li>
+                <h6>Абонемент на 8 занять</h6>
+                <p>2 рази на тиждень</p>
+                <h8>від 400 грн/60 хв</h8>
+              </li>
+              <li>
+                <h6>Абонемент на 4 заняття</h6>
+                <p>1 раз на тиждень</p>
+                <h8>від 425 грн/60 хв</h8>
+              </li>
+              <li>
+                <h6>Разовий урок</h6>
+                <p>вільний графік</p>
+                <h8>від 450 грн/60 хв</h8>
+              </li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Записатись</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">Від 250₴</span>
+            <h4>Заняття split (в парі)</h4>
+            <ul>
+              <li>
+                <h6>Абонемент на 8 занять</h6>
+                <p>2 рази на тиждень</p>
+                <h8>від 250 грн/60 хв</h8>
+              </li>
+              <li>
+                <h6>Абонемент на 4 заняття</h6>
+                <p>1 раз на тиждень</p>
+                <h8>від 275 грн/60 хв</h8>
+              </li>
+              <li>
+                <h6>Разовий урок</h6>
+                <p>вільний графік</p>
+                <h8>від 300 грн/60 хв</h8>
+              </li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Записатись</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Teachers Area Starts ***** -->
+  <div id="teachers" class="teachers section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 align-self-center">
+          <div class="section-heading">
+            <h4>Викладачі</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Наші викладачі - це професіонали своєї справи, які допоможуть тобі досягти успіху!</p>
+
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <div class="box-item">
+                <img src="assets/images/teacher-image-01.jpg" alt="">
+                <h4>Мар'яна Вихрист</h4>
+                <p>Lorem Ipsum Text</p>
+                <div class="social-icons">
+                  <div class="instagram">
+                    <a href="https://www.instagram.com/maryanavykhryst/" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                  <div class="facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100027573158220" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                  <div class="telegram">
+                    <a href="https://t.me/maryanavykhryst" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="box-item">
+                <img src="assets/images/teacher-image-022.jpg" alt="">
+                <h4>Денис Чуб</h4>
+                <p>Lorem Ipsum Text</p>
+                <div class="social-icons">
+                  <div class="instagram">
+                    <a href="https://www.instagram.com/denis_chub13/" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                  <div class="facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100014466971674" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                  <div class="telegram">
+                    <a href="https://t.me/chub13" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="box-item">
+                <img src="assets/images/teacher-image-03.jpg" alt="">
+                <h4>Микола Лисенко</h4>
+                <p>Lorem Ipsum Text</p>
+                <div class="social-icons">
+                  <div class="instagram">
+                    <a href="https://uk.wikipedia.org/w/index.php?curid=9683" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                  <div class="facebook">
+                    <a href="https://uk.wikipedia.org/w/index.php?curid=9683" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                  <div class="telegram">
+                    <a href="https://uk.wikipedia.org/w/index.php?curid=9683" target="_blank">
+                      <div class="icon"></div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Сlients Area Starts ***** -->
+  <div id="clients" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Відгуки наших учнів</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Ми випустили більше 1000 учнів, які досягли успіху!</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-6 align-self-center">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <div class="row justify-content-md-center">
+                          <div class="col-lg-6 col-sm-4 col-12">
+                            <h4>Катерина Гончаренко</h4>
+                            <span class="date">30 листопада 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.8</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row justify-content-md-center">
+                          <div class="col-lg-6 col-sm-4 col-12">
+                            <h4>Віталій Шевченко</h4>
+                            <span class="date">29 жовтня 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.5</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row justify-content-md-center">
+                          <div class="col-lg-6 col-sm-4 col-12">
+                            <h4>Ігор Мельник</h4>
+                            <span class="date">23 квітня 2023</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.7</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <div class="row justify-content-md-center">
+                          <div class="col-lg-6 col-sm-4 col-12">
+                            <h4>Ірина Петренко</h4>
+                            <span class="date">24 січня 2022</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">3.9</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">
+                        <div class="row justify-content-md-center">
+                          <div class="col-lg-6 col-sm-4 col-12">
+                            <h4>Анна Ковальчук</h4>
+                            <span class="date">1 березня 2023</span>
+                          </div>
+                          <div class="col-lg-4 col-sm-4 col-12">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <span class="rating">4.3</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Це найкраща музична школа у моєму житті! Я почала грати нещодавно, але завдяки
+                                  викладачам та їхній підтримці я вже граю складніші композиції. Школа має
+                                  дуже зручний графік занять та привітну
+                                  атмосферу. Завжди з нетерпінням чекаю на наступний урок.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-woman-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Катерина Гончаренко</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Intermezzo Music Academy - найкраще місце для початку вивчення фортепіано. В школі
+                                  чудові умови для навчання, а
+                                  викладачі завжди підходять до кожного студента індивідуально. Рекомендую цю школу
+                                  всім, хто мріє вивчити цей інструмент.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-man-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Віталій Шевченко</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Тут така привітна та дружня атмосфера! Всі викладачі відмінно розуміють, як
+                                  важливо створити комфортні умови для студентів.
+                                  Я отримав багато знань та вражень від навчання у цій школі.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-man-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Ігор Мельник</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Це прекрасна школа з досвідченими та талановитими викладачами. Я навчалась тут
+                                  протягом декількох місяців і відчула
+                                  значний прогрес у своїй грі. Якщо ви хочете вивчити фортепіано, я рекомендую обрати
+                                  саме цю школу.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-woman-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Ірина Петренко</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="client-content">
+                                <img src="assets/images/quote.png" alt="">
+                                <p>“Intermezzo - це дійсно високоякісна школа з професійними викладачами. Вони
+                                  допомогли мені
+                                  розкрити свій талант і навчити багато
+                                  нового. Я дуже задоволена результатом та рекомендую цю школу всім, хто мріє вивчити
+                                  фортепіано.”</p>
+                              </div>
+                              <div class="down-content">
+                                <img src="assets/images/client-woman-image.jpg" alt="">
+                                <div class="right-content">
+                                  <h4>Анна Ковальчук</h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="certificate" class="certificate section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="left-image">
+            <img src="assets/images/certificate-image.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>Подарунковий сертифікат</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Подаруйте музику разом з нами!</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Подарунковий сертифікат - чудовий варіант для тих, хто хоче здивувати своїх рідних, друзів чи колег
+                оригінальним і корисним подарунком. З ним ви отримуєте можливість подарувати не просто заняття,
+                а можливість дарувати незабутні враження та вміння.
+                Ви можете обрати сертифікат на будь-яку та кількість занять: 1, 4 або 8.</p>
+              <p>Не вагайтеся та подаруйте своїм близьким можливість вивчати фортепіано разом з школою Intermezzo. Ми
+                гарантуємо якість навчання та задоволення від результатів.</p>
+              <p>Замовити подарунковий сертифікат можна на нашому сайті або зв'язавшись з нашими менеджерами. Ми також
+                можемо надіслати сертифікат поштою або електронною поштою.</p>
+
+              <div class="gradient-button">
+                <ahref="#">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on"
+                    required>
+                </fieldset>
+              </div>
+              <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Contact Us</h4>
+            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
+            <p><a href="#">010-020-0340</a></p>
+            <p><a href="#">info@company.co</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Testimonials</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Free Apps</a></li>
+              <li><a href="#">App Engine</a></li>
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">App News</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">App Dev Team</a></li>
+              <li><a href="#">Digital Web</a></li>
+              <li><a href="#">Normal Apps</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>About Our Company</h4>
+            <div class="logo">
+              <img src="assets/images/white-logo.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
+              <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
