@@ -1,15 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+<head>
+  <title>Intermezzo</title>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="Oksana Vykhryst" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+
+  <!--  Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/css/piano-school.css" />
+</head>
+
+<body>
+
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -22,14 +43,14 @@
     </div>
   </div>
 
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0.2s">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="Piano School Logo" width="60px" height="60px" />
+              <img src="assets/images/black-logo.png" alt="Piano School Logo" width="60px" height="60px" />
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -57,6 +78,7 @@
     </div>
   </header>
 
+  <!-- Modal login -->
   <div id="modal-login" class="popupContainer" style="display: none">
     <div class="popupHeader">
       <span class="header_title">Вхід</span>
@@ -154,8 +176,6 @@
     </section>
   </div>
 
-
-
   <!-- ***** Main Banner Area Start ***** -->
   <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
@@ -204,7 +224,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
             <h4>Що ми пропонуємо</h4>
             <img src="assets/images/heading-line-dec.png" alt="" />
             <p>
@@ -320,7 +340,7 @@
           </div>
         </div>
         <div class="col-lg-6 d-flex justify-content-end ">
-          <div class="right-image">
+          <div class="right-image wow fadeInRight" data-wow-duration="1s">
             <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel false">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -372,8 +392,8 @@
             <p>Обери для себе зручний абонемент та скоріше приходь і отримай нові враження!</p>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
+        <div class="col-lg-4 ">
+          <div class="pricing-item-regular wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.6s">
             <span class="price">Від 200₴</span>
             <h4>Групові заняття</h4>
             <ul>
@@ -398,7 +418,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
           <div class="pricing-item-pro">
             <span class="price">Від 400₴</span>
             <h4>Індивідуальні заняття</h4>
@@ -424,7 +444,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.9s">
           <div class="pricing-item-regular">
             <span class="price">Від 250₴</span>
             <h4>Заняття split (в парі)</h4>
@@ -542,6 +562,77 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- ***** Certificate Area Starts -->
+  <div id="certificate" class="certificate section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="left-image">
+            <img src="assets/images/certificate-image.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.1s">
+            <h4>Подарунковий сертифікат</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Подаруйте музику разом з нами!</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Подарунковий сертифікат - чудовий варіант для тих, хто хоче здивувати своїх рідних, друзів чи колег
+                оригінальним і корисним подарунком. З ним ви отримуєте можливість подарувати не просто заняття,
+                а можливість дарувати незабутні враження та вміння.
+                Ви можете обрати сертифікат на будь-яку та кількість занять: 1, 4 або 8.</p>
+              <p>Не вагайтеся та подаруйте своїм близьким можливість вивчати фортепіано разом з школою Intermezzo. Ми
+                гарантуємо якість навчання та задоволення від результатів.</p>
+              <p>Замовити подарунковий сертифікат можна на нашому сайті або зв'язавшись з нашими менеджерами. Ми також
+                можемо надіслати сертифікат поштою або електронною поштою.</p>
+
+              <div class="gradient-button">
+                <a id="modal_trigger_cert" href="#modal-certificate">Замовити</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Certificate  -->
+  <div id="modal-certificate" class="popupContainer" style="display: none">
+    <div class="popupHeader">
+      <span class="header_title">Подарунковий сертифікат</span>
+      <span class="modal_close"><i class="fa fa-times fa-lg"></i></span>
+    </div>
+
+    <section class="popupBody">
+      <div class="certificate_order">
+        <form>
+          <input type="text" placeholder="Ім'я, Прізвище" />
+          <br />
+
+          <input type="tel" placeholder="Телефон" />
+          <br />
+
+          <input type="number" placeholder="На яку суму або кількість занять" />
+          <br />
+
+          <div class="action_btns">
+            <div class="gradient-button">
+              <a id="modal_order_cert" href="#">Замовити</a>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+      <div class="certOrderMessage" id="orderMessage">
+        <i class="fa-regular fa-circle-check fa-5x fa-beat"></i>
+        <p>Незабаром з Вами зв'яжуться наші менеджери.</p>
+      </div>
+    </section>
   </div>
 
   <!-- ***** Сlients Area Starts ***** -->
@@ -780,137 +871,164 @@
     </div>
   </div>
 
-  <div id="certificate" class="certificate section">
+  <!-- ***** Contacts Area Start ***** -->\
+  <div id="contacts" class="contacts section">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex align-items-center">
-          <div class="left-image">
-            <img src="assets/images/certificate-image.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6 align-self-center">
+      <div class="row d-flex align-items-start">
+        <div class="col-lg-6 left-content align-self-center">
           <div class="section-heading">
-            <h4>Подарунковий сертифікат</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Подаруйте музику разом з нами!</p>
+            <h4>Контакти</h4>
+            <p>Можна зв’язатися з нами за допомогою таких способів</p>
           </div>
           <div class="row">
-            <div class="col-lg-12">
-              <p>Подарунковий сертифікат - чудовий варіант для тих, хто хоче здивувати своїх рідних, друзів чи колег
-                оригінальним і корисним подарунком. З ним ви отримуєте можливість подарувати не просто заняття,
-                а можливість дарувати незабутні враження та вміння.
-                Ви можете обрати сертифікат на будь-яку та кількість занять: 1, 4 або 8.</p>
-              <p>Не вагайтеся та подаруйте своїм близьким можливість вивчати фортепіано разом з школою Intermezzo. Ми
-                гарантуємо якість навчання та задоволення від результатів.</p>
-              <p>Замовити подарунковий сертифікат можна на нашому сайті або зв'язавшись з нашими менеджерами. Ми також
-                можемо надіслати сертифікат поштою або електронною поштою.</p>
-
-              <div class="gradient-button">
-                <ahref="#">Замовити</a>
-              </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul>
+                <li><i class="fa-solid fa-phone"></i>1-800-555-1234</li>
+                <li><i class="fa-solid fa-envelope"></i></i>intermezzo@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot"></i>м. Харків, вул. Культури, 1</li>
+                <li><i class="fa-solid fa-clock"></i>Пн-Нд з 8:00 до 21:00</li>
+              </ul>
             </div>
+          </div>
+          <div class="row">
+            <div class="section-heading">
+              <h5>Наші соціальні мережі</h5>
+            </div>
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul class="social-icons">
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-telegram fa-xl"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-end ">
+          <div class="right-image">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8562.321892871225!2d36.22197180744369!3d50.01060676632878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a1beeb881d4b%3A0x2a52214254f6773c!2z0KXQsNGA0LrRltCy0YHRjNC60LAg0LTQuNGC0Y_Rh9CwINC80YPQt9C40YfQvdCwINGI0LrQvtC70LAg4oSWMTM!5e0!3m2!1suk!2sua!4v1682583993563!5m2!1suk!2sua"
+              width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
-
+  <!-- ***** Newsletter Area Start ***** -->
   <footer id="newsletter">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
           <div class="section-heading">
-            <h4>Join our mailing list to receive the news &amp; latest trends</h4>
+            <h4>Цікавить щось конкретне?<br>
+              Задайте питання нашій школі!</h4>
+            <p>Заповніть форму нижче і вам відповість наш адміністратор</p>
           </div>
         </div>
         <div class="col-lg-6 offset-lg-3">
           <form id="search" action="#" method="GET">
             <div class="row">
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-lg-4 col-sm-4">
                 <fieldset>
-                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on"
+                  <input type="email" name="email" class="email" placeholder="Ваша електронна пошта" autocomplete="on"
                     required>
                 </fieldset>
               </div>
-              <div class="col-lg-6 col-sm-6">
+              <div class="col-lg-4 col-sm-4">
                 <fieldset>
-                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                  <input type="text" name="question" class="email" placeholder="Ваше питання" autocomplete="off"
+                    required>
+                </fieldset>
+              </div>
+              <div class="col-lg-4 col-sm-4">
+                <fieldset>
+                  <div id="success-orderMessage"></div>
+                  <button type="submit" class="main-button">Відправити <i class="fa fa-angle-right"></i></button>
                 </fieldset>
               </div>
             </div>
           </form>
+
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 ">
           <div class="footer-widget">
-            <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
+            <h4>Контакти</h4>
+            <p>м. Харків, вул. Культури, 1</p>
+            <p>1-800-555-1234</p>
+            <p>intermezzo@gmail.com</p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
-            <h4>About Us</h4>
+            <h4>Про нас</h4>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li class="scroll-to-section"><a href="#top" class="active">Головна</a></li>
+              <li class="scroll-to-section"><a href="#services">Послуги</a></li>
+              <li class="scroll-to-section"><a href="#about">Про нас</a></li>
+              <li class="scroll-to-section"><a href="#pricing">Ціни</a></li>
+
             </ul>
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
+              <li class="scroll-to-section"><a href="#teachers">Викладачі</a></li>
+              <li class="scroll-to-section"><a href="#certificate">Сертифікат</a></li>
+              <li class="scroll-to-section"><a href="#clients">Відгуки</a></li>
+              <li class="scroll-to-section"><a href="#contacts">Контакти</a></li>
+            </ul>
+            <ul></ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4>Корисні посилання</h4>
+            <ul>
+              <li><a href="#">Ноти</a></li>
+              <li><a href="#">Музичні терміни</a></li>
+              <li><a href="#">Сольфеджіо</a></li>
+              <li><a href="#">Музичні тести</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Гайд початківцям</a></li>
+              <li><a href="#">IMSLP</a></li>
+              <li><a href="#">Piano Street</a></li>
             </ul>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="footer-widget">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Free Apps</a></li>
-              <li><a href="#">App Engine</a></li>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">App News</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">App Dev Team</a></li>
-              <li><a href="#">Digital Web</a></li>
-              <li><a href="#">Normal Apps</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>About Our Company</h4>
+            <h4>Про нас</h4>
             <div class="logo">
               <img src="assets/images/white-logo.png" alt="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore.</p>
+            <p>Сучасна музична школа для дітей та дорослих</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.
-              <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a>
+            <p>Intermezzo Music Academy © 2023
+              <br>Design: <a href="https://t.me/vykssy" target="_blank">Oksana Vykhryst</a>
             </p>
+
           </div>
+
         </div>
       </div>
     </div>
   </footer>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="https://kit.fontawesome.com/58f6057ad8.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
