@@ -76,12 +76,14 @@
     $("#modal_trigger_cert").click(function () {
       $(".certificate_order").show();
       $("#orderMessage").hide();
+      $(".header_title").text('Подарунковий сертифікат');
       return false;
     });
 
     $("#modal_order_cert").click(function () {
       $(".certificate_order").hide();
       $(".certOrderMessage").show();
+      $(".header_title").text('Подарунковий сертифікат');
       return false;
     });
 
